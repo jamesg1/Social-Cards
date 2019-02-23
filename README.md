@@ -1,10 +1,13 @@
 # Social Cards
 [![Netlify Status](https://api.netlify.com/api/v1/badges/c9d6ebf9-6ff6-4f76-a197-9e309ff13952/deploy-status)](https://app.netlify.com/sites/react-social-card/deploys)
 
-This is an example Create React App building some article and social cards with Styled Components and Typescript.
+This is an example of some social and article card components built with styled components and typescript.
+
+<a href="https://react-social-card.netlify.com/" target="_blank">
 <p align="center">
 <img width="441" alt="screen shot 2019-02-23 at 7 04 48 pm" src="https://user-images.githubusercontent.com/3621147/53284303-177ded80-379e-11e9-9048-430502f49ddb.png">
 </p>
+</a>
 
 ## Demo
 Checkout the [demo here](https://react-social-card.netlify.com/).
