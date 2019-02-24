@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 const Card = styled.div`
+  background: #fff;
   display: flex;
   flex-direction: column;
   overflow: hidden;
