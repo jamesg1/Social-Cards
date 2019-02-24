@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 const Card = styled.div`
-  max-width: 417px;
   display: flex;
   flex-direction: column;
   overflow: hidden;
@@ -20,7 +19,7 @@ const Card = styled.div`
 const Media = styled.div`
   position: relative;
   height: 180px;
-  padding: 50px 20px 20px;
+  padding: 20px;
 
   &:after {
     position: absolute;
@@ -78,7 +77,7 @@ const Image = styled.img`
   object-fit: cover;
 `;
 
-const Read = styled.a`
+const Read = styled.span`
   font-size: 15px;
   letter-spacing: 1.5px;
   display: inline-block;

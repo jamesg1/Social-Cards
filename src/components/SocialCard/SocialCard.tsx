@@ -7,17 +7,17 @@ export const SocialCard: React.FC<Props> = props => {
   const { title, imgSrc, url } = props;
   return (
     <Card>
-      <Media>
-        <Link href={url}>
+      <Link href={url}>
+        <Media>
           <Image src={imgSrc} alt={title} />
-        </Link>
-      </Media>
-      <Body>
-        <Text>{title}</Text>
-      </Body>
-      <Footer>
-        <Read href={url}>Read More</Read>
-      </Footer>
+        </Media>
+        <Body>
+          <Text>{title}</Text>
+        </Body>
+        <Footer>
+          <Read>Read More</Read>
+        </Footer>
+      </Link>
     </Card>
   );
 };

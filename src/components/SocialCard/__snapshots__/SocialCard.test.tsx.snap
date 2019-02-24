@@ -1,0 +1,161 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SocialCard /> it renders with props 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  overflow: hidden;
+  margin: 15px;
+  min-height: 300px;
+  box-shadow: 0 3px 5px 0 rgba(0,0,0,0.05);
+  border-radius: 6px;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.c0:hover {
+  -webkit-transform: translateY(-5px);
+  -ms-transform: translateY(-5px);
+  transform: translateY(-5px);
+  box-shadow: 0 5px 14px 2px rgba(0,0,0,0.07);
+}
+
+.c2 {
+  position: relative;
+  height: 180px;
+  padding: 20px;
+}
+
+.c2:after {
+  position: absolute;
+  bottom: -6px;
+  left: 0;
+  width: 100%;
+  height: 6px;
+  content: "";
+  opacity: 0;
+  width: 100%;
+  -webkit-transition: -webkit-transform 0.4s,opacity 0.4s;
+  -webkit-transition: transform 0.4s,opacity 0.4s;
+  transition: transform 0.4s,opacity 0.4s;
+  -webkit-transform: translate3d(-100%,0,0);
+  -ms-transform: translate3d(-100%,0,0);
+  transform: translate3d(-100%,0,0);
+  background: #77d0fa linear-gradient(to right,#82b4e2 0%,#77d0fa 100%);
+}
+
+.c2:hover:after {
+  -webkit-transform: translate3d(0,0,0);
+  -ms-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+  opacity: 1;
+}
+
+.c4 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.6;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 20px 25px;
+  text-align: left;
+  color: #536171;
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+}
+
+.c5 {
+  margin: 0;
+}
+
+.c6 {
+  margin: auto 25px 20px 25px;
+}
+
+.c1 {
+  color: #fff;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+}
+
+.c3 {
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.c7 {
+  font-size: 15px;
+  -webkit-letter-spacing: 1.5px;
+  -moz-letter-spacing: 1.5px;
+  -ms-letter-spacing: 1.5px;
+  letter-spacing: 1.5px;
+  display: inline-block;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  opacity: 0.35;
+  color: #2a3039;
+}
+
+.c7:hover {
+  opacity: 1;
+  color: #536171;
+}
+
+<div
+  className="c0"
+>
+  <a
+    className="c1"
+    href="https://www.sydneyfc.com"
+  >
+    <div
+      className="c2"
+    >
+      <img
+        alt="Sydney FC Set New Membership Record for the 2018/19 Season"
+        className="c3"
+        src="https://www.sydneyfc.com/sites/syd/files/styles/image_1200x/public/2019-01/Fixtures.jpg"
+      />
+    </div>
+    <div
+      className="c4"
+    >
+      <p
+        className="c5"
+      >
+        Sydney FC Set New Membership Record for the 2018/19 Season
+      </p>
+    </div>
+    <div
+      className="c6"
+    >
+      <span
+        className="c7"
+      >
+        Read More
+      </span>
+    </div>
+  </a>
+</div>
+`;
