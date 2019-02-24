@@ -1,5 +1,6 @@
 # Social Cards
-[![Netlify Status](https://api.netlify.com/api/v1/badges/c9d6ebf9-6ff6-4f76-a197-9e309ff13952/deploy-status)](https://app.netlify.com/sites/react-social-card/deploys)
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c9d6ebf9-6ff6-4f76-a197-9e309ff13952/deploy-status)](https://app.netlify.com/sites/react-social-card/deploys) [![codecov](https://codecov.io/gh/jamesg1/Social-Cards/branch/master/graph/badge.svg)](https://codecov.io/gh/jamesg1/Social-Cards)
 
 This is an example of some social and article card components built with styled components and typescript.
 
@@ -10,6 +11,7 @@ This is an example of some social and article card components built with styled 
 </a>
 
 ## Demo
+
 Checkout the [demo here](https://react-social-card.netlify.com/).
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

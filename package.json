@@ -36,5 +36,8 @@
       "!src/index.tsx",
       "!src/serviceWorker.ts"
     ]
+  },
+  "devDependencies": {
+    "codecov": "^3.2.0"
   }
 }
